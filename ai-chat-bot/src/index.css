@@ -1,0 +1,28 @@
+
+
+/*import google font: Outfit and exo2*/
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+/*This code establishes a baseline style of all elements
+in my project*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: None;
+    font-family: 'Outfit', sans-serif;
+}
+
+/*1rem = 10px*/
+html {
+    font-size: 62.5%;
+}
+
+.containter {
+    width: 100%;
+    height: 100vh;
+    display: grid; /*grid layou*/
+    place-items: center;
+    background-color: #131927;
+}
+
